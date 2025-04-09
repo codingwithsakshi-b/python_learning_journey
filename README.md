@@ -32,6 +32,28 @@ Powered by curiosity, VS Code, and caffeine ☕, I’m building my own coding ki
 📁 resources/ → Cheat sheets, useful PDFs, and more 🧠
 📁 readme_assets/ → Images & banners used in README 🌈
 
+---
+
+## 📚 What You'll Find Here
+
+- 🧠 **Lecture-wise Notes** – Clear handwritten-style notes for each lecture  
+- ✅ **Practice Questions** – Beginner-friendly problems and solutions  
+- 💻 **Mini Projects** – Simple apps to apply what I've learned  
+- 🗂️ **Resources Folder** – Handy links, references, and cheatsheets  
+- 📌 **Learning Source** – [Shraddha Khapra's Python Playlist (Apna College)](https://www.youtube.com/playlist?list=PLK8aNFRxTepzH4jkFbIQz1qz3W3s3AZmT)
+
+---
+
+## 🚀 My Progress
+
+| Lecture | Topics Covered                                | Status  |
+|---------|-----------------------------------------------|---------|
+| 1-4     | Basics, Variables, Data Types, I/O            | ✅ Done |
+| 5       | Loops (for, while, break, continue, range)    | ✅ Done |
+| 6       | Coming soon...                                | 🕓 Ongoing |
+
+📅 **Started on:** April 3, 2025  
+📍 **Goal:** Build confidence in Python & start creating real-world projects after Semester 1!
 
 ---
 
@@ -58,6 +80,13 @@ Powered by curiosity, VS Code, and caffeine ☕, I’m building my own coding ki
 - ✔️ Loop Notes with examples  
 - ✔️ Student Data Manager Project  
 - ✔️ Basic calculators, conditions, strings, sets... and more!
+
+---
+
+## 🤝 Let's Connect!
+
+- 💻 [GitHub](https://github.com/codingwithsakshi-b)
+- 🐍 Follow my journey and feel free to explore, suggest, or learn along!
 
 ---
 
