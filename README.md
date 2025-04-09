@@ -40,7 +40,7 @@ Powered by curiosity, VS Code, and caffeine ☕, I’m building my own coding ki
 - ✅ **Practice Questions** – Beginner-friendly problems and solutions  
 - 💻 **Mini Projects** – Simple apps to apply what I've learned  
 - 🗂️ **Resources Folder** – Handy links, references, and cheatsheets  
-- 📌 **Learning Source** – [Shraddha Khapra's Python Playlist (Apna College)](https://www.youtube.com/playlist?list=PLK8aNFRxTepzH4jkFbIQz1qz3W3s3AZmT)
+- 📌 **Learning Source** –https://www.youtube.com/playlistlist=PLK8aNFRxTepzH4jkFbIQz1qz3W3s3AZmT
 
 ---
 
@@ -50,7 +50,8 @@ Powered by curiosity, VS Code, and caffeine ☕, I’m building my own coding ki
 |---------|-----------------------------------------------|---------|
 | 1-4     | Basics, Variables, Data Types, I/O            | ✅ Done |
 | 5       | Loops (for, while, break, continue, range)    | ✅ Done |
-| 6       | Coming soon...                                | 🕓 Ongoing |
+| 6       | Functions,Recursion(user defined functions)   | ✅ Done |
+| 7       | Coming soon...                                | 🕓 Ongoing |
 
 📅 **Started on:** April 3, 2025  
 📍 **Goal:** Build confidence in Python & start creating real-world projects after Semester 1!
