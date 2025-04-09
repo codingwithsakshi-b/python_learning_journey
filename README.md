@@ -87,7 +87,7 @@ Powered by curiosity, VS Code, and caffeine ☕, I’m building my own coding ki
 ## 🤝 Let's Connect!
 
 - 💻 [GitHub](https://github.com/codingwithsakshi-b)
-- 💌 [Gmail](studystudy7867@gmail.com)
+- 💌 [Gmail](mailto:studystudy7867@gmail.com)
 - 🐍 Follow my journey and feel free to explore, suggest, or learn along!
 
 ---
