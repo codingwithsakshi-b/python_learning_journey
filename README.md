@@ -1,5 +1,7 @@
 # python_learning_journey
 
+![Sakshi's Python Journey](https://github.com/codingwithsakshi-b/python_learning_journey/blob/main/Add%20a%20heading.png?raw=true)
+
 # 💖 Welcome to My Python Coding World
 
 Hi! I'm Sakshi, currently learning Python step by step with full dedication and excitement 😄  
