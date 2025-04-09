@@ -40,7 +40,7 @@ Powered by curiosity, VS Code, and caffeine ☕, I’m building my own coding ki
 - ✅ **Practice Questions** – Beginner-friendly problems and solutions  
 - 💻 **Mini Projects** – Simple apps to apply what I've learned  
 - 🗂️ **Resources Folder** – Handy links, references, and cheatsheets  
-- 📌 **Learning Source** –https://www.youtube.com/playlistlist=PLK8aNFRxTepzH4jkFbIQz1qz3W3s3AZmT
+- 📌 **Learning Source** – https://www.youtube.com/playlist?list=PLGjplNEQ1it8-0CmoljS5yeV-GlKSUEt0
 
 ---
 
