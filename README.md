@@ -46,7 +46,7 @@ Powered by curiosity, VS Code, and caffeine ☕, I’m building my own coding ki
 
 ## 🚀 My Progress
 
-| Lecture | Topics Covered                                | Status  |
+| 📘 Lecture |📚 Topics Covered                          |📚 Status  |
 |---------|-----------------------------------------------|---------|
 | 1-4     | Basics, Variables, Data Types, I/O            | ✅ Done |
 | 5       | Loops (for, while, break, continue, range)    | ✅ Done |
