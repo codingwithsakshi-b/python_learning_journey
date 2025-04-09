@@ -1,5 +1,10 @@
 # python_learning_journey
 
+![GitHub repo size](https://img.shields.io/github/repo-size/codingwithsakshi-b/python_learning_journey)
+![GitHub stars](https://img.shields.io/github/stars/codingwithsakshi-b/python_learning_journey?style=social)
+![GitHub last commit](https://img.shields.io/github/last-commit/codingwithsakshi-b/python_learning_journey)
+
+
 ![Sakshi's Python Journey](https://github.com/codingwithsakshi-b/python_learning_journey/blob/main/Add%20a%20heading.png?raw=true)
 
 # 💖 Welcome to My Python Coding World
