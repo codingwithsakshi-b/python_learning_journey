@@ -29,9 +29,9 @@
 ## 📂 Solution Reference
 
 - Notes with explanations and examples:
-  - `notes/lec6_functions_recursion.py`
+  - `https://github.com/codingwithsakshi-b/notes/lec6_functions_recursion.py`
 - Additional practice and variations:
-  - `practice_questions/function_recursion_practice_question.py`
+  - `https://github.com/codingwithsakshi-b/practice_questions/function_recursion_practice_question.py`
 
 ---
 
