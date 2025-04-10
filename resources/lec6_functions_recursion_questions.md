@@ -31,7 +31,7 @@
 - Notes with explanations and examples:
   - `https://github.com/codingwithsakshi-b/notes/lec6_functions_recursion.py`
 - Additional practice and variations:
-  - `https://github.com/codingwithsakshi-b/practice_questions/function_recursion_practice_question.py`
+  - `https://github.com/codingwithsakshi-b/practice_questions/funtion_recursion_practice_question.py`
 
 ---
 
