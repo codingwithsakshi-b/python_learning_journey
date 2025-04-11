@@ -37,7 +37,7 @@ Powered by curiosity, VS Code, and caffeine ☕, I’m building my own coding ki
 📁 resources/ → Cheat sheets, useful PDFs, and more 🧠  
 📁 readme_assets/ → Images & banners used in README 🌈
 📁 vibe_corner/ → My creative space – journey story, coding quotes, and personal reflections 💖
-🔖 Don’t miss my personal story in [`vibe_corner/my_python_journey.md`](vibe_corner/my_python_journey.md)  
+>🔖 Don’t miss my personal story in [`vibe_corner/my_python_journey.md`](vibe_corner/my_python_journey.md)  
 Because learning code is also about learning yourself ✨
 
 
