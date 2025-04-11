@@ -6,6 +6,8 @@
 ![Mini Projects](https://img.shields.io/badge/Projects-5%2B-blueviolet)
 ![Assignments](https://img.shields.io/badge/Challenge%20Sheets-1-orange)
 
+![Social Preview](resources/social_preview.png)
+
 ![Sakshi's Python Journey](https://github.com/codingwithsakshi-b/python_learning_journey/blob/main/Add%20a%20heading.png?raw=true)
 
 # 💖 Welcome to My Python Coding World
