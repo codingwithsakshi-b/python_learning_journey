@@ -54,12 +54,15 @@ Powered by curiosity, VS Code, and caffeine ☕, I’m building my own coding ki
 
 ## 🚀 My Progress
 
-| 📘 Lecture |📚 Topics Covered                          |📚 Status    |
-|-----------|-------------------------------------------|-------------|
-| 1-4       | Basics, Variables, Data Types, I/O        | ✅ Done      |
-| 5         | Loops (for, while, break, continue, range)| ✅ Done      |
-| 6         | Functions, Recursion                      | ✅ Done      |
-| 7         | File Handling (Read/Write, open, modes)   | 🕓 Upcoming  |
+| 📘 Lecture |📚 Topics Covered                          |📚 Status  |
+|-----------|-------------------------------------------|------------|
+| 1-4       | Basics, Variables, Data Types, I/O        | ✅ Done     |
+| 5         | Loops (for, while, break, continue, range)| ✅ Done     |
+| 6         | Functions, Recursion                      | ✅ Done     |
+| 7         | File Handling, open/read/write/with/os    | ✅ Done     |
+| 8         | Coming soon...                            | 🕓 Upcoming |
+
+---
 
 📅 **Started on:** April 3, 2025  
 📍 **Goal:** Build confidence in Python & start creating real-world projects after Semester 1!
