@@ -3,11 +3,14 @@
 ![GitHub repo size](https://img.shields.io/github/repo-size/codingwithsakshi-b/python_learning_journey)
 ![GitHub stars](https://img.shields.io/github/stars/codingwithsakshi-b/python_learning_journey?style=social)
 ![GitHub last commit](https://img.shields.io/github/last-commit/codingwithsakshi-b/python_learning_journey)
-
+![Mini Projects](https://img.shields.io/badge/Projects-5%2B-blueviolet)
+![Assignments](https://img.shields.io/badge/Challenge%20Sheets-1-orange)
 
 ![Sakshi's Python Journey](https://github.com/codingwithsakshi-b/python_learning_journey/blob/main/Add%20a%20heading.png?raw=true)
 
 # 💖 Welcome to My Python Coding World
+
+> “Every bug I fix and every line I write takes me closer to the coder I dream to be.” – Sakshi 💫
 
 Hi! I'm Sakshi, currently learning Python step by step with full dedication and excitement 😄  
 This repo is like my second home where I store all my notes, practice questions, and cute mini projects 🏠✨  
@@ -25,11 +28,11 @@ Powered by curiosity, VS Code, and caffeine ☕, I’m building my own coding ki
 
 ## 🗂️ Folder Overview
 
-📁 notes/ → Lecture-wise handwritten code notes 📝
-📁 practice_questions/ → Python questions solved by me ✨
-📁 mini_projects/ → Small but cool real-life projects 💻
-📁 assignments/ → Practice tasks & mini challenges 🎯
-📁 resources/ → Cheat sheets, useful PDFs, and more 🧠
+📁 notes/ → Lecture-wise handwritten code notes 📝  
+📁 practice_questions/ → Python questions solved by me ✨  
+📁 mini_projects/ → Small but cool real-life projects 💻  
+📁 assignments/ → Practice tasks & mini challenges 🎯  
+📁 resources/ → Cheat sheets, useful PDFs, and more 🧠  
 📁 readme_assets/ → Images & banners used in README 🌈
 
 ---
@@ -40,18 +43,21 @@ Powered by curiosity, VS Code, and caffeine ☕, I’m building my own coding ki
 - ✅ **Practice Questions** – Beginner-friendly problems and solutions  
 - 💻 **Mini Projects** – Simple apps to apply what I've learned  
 - 🗂️ **Resources Folder** – Handy links, references, and cheatsheets  
+- 📝 **Challenge Sheets & Weekly Assignments** – Pre-lecture tests & solution sets  
+  📁 `assignment/functions_recursion_challenge.py`  
+  📁 `practice_questions/functions_recursion_challenge_solution.py`  
 - 📌 **Learning Source** – https://www.youtube.com/playlist?list=PLGjplNEQ1it8-0CmoljS5yeV-GlKSUEt0
 
 ---
 
 ## 🚀 My Progress
 
-| 📘 Lecture |📚 Topics Covered                          |📚 Status  |
-|---------|-----------------------------------------------|---------|
-| 1-4     | Basics, Variables, Data Types, I/O            | ✅ Done |
-| 5       | Loops (for, while, break, continue, range)    | ✅ Done |
-| 6       | Functions,Recursion(user defined functions)   | ✅ Done |
-| 7       | Coming soon...                                | 🕓 Ongoing |
+| 📘 Lecture |📚 Topics Covered                          |📚 Status    |
+|-----------|-------------------------------------------|-------------|
+| 1-4       | Basics, Variables, Data Types, I/O        | ✅ Done      |
+| 5         | Loops (for, while, break, continue, range)| ✅ Done      |
+| 6         | Functions, Recursion                      | ✅ Done      |
+| 7         | File Handling (Read/Write, open, modes)   | 🕓 Upcoming  |
 
 📅 **Started on:** April 3, 2025  
 📍 **Goal:** Build confidence in Python & start creating real-world projects after Semester 1!
@@ -79,15 +85,19 @@ Powered by curiosity, VS Code, and caffeine ☕, I’m building my own coding ki
 ## 🌟 Featured Work So Far
 
 - ✔️ Loop Notes with examples  
-- ✔️ Student Data Manager Project  
-- ✔️ Basic calculators, conditions, strings, sets... and more!
+- ✔️ Student Info Dictionary Project 📘  
+- ✔️ Smart Number Checker (if-else logic based) 🎯  
+- ✔️ List Toolkit (Python list manipulations) 🧺  
+- ✔️ Chef Fun Coding Warm-Up (5 cute tasks) 🍳  
+- ✔️ Flexible Calculator with Default Parameters 🧮  
+- ✔️ Challenge Sheet + Solutions (Functions & Recursion) 🧠📝
 
 ---
 
 ## 🤝 Let's Connect!
 
-- 💻 [GitHub](https://github.com/codingwithsakshi-b)
-- 💌 [Gmail](mailto:studystudy7867@gmail.com)
+- 💻 [GitHub](https://github.com/codingwithsakshi-b)  
+- 💌 [Gmail](mailto:studystudy7867@gmail.com)  
 - 🐍 Follow my journey and feel free to explore, suggest, or learn along!
 
 ---
@@ -98,7 +108,5 @@ Made with 💖 by **Sakshi** a.k.a. `codingwithsakshi-b`
 Let’s grow, code & glow together ✨  
 
 > “Learning Python is not just about syntax… it's about building something magical 🪄.”  
-
----
 
 
