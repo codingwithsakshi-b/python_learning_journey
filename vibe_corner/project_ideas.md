@@ -8,11 +8,10 @@ A detailed list of mini projects I've built during my Python learning journey (s
 
 | Project Name                        | Description                                                           | Status  | Location                                         |
 |------------------------------------|-----------------------------------------------------------------------|---------|--------------------------------------------------|
-| `fun_warmup_chef_coding.py`       | 5 small fun warm-up programs to kickstart my Python journey.         | ✅ Done | `mini_projects/fun_warmup_chef_coding.py`       |
-| `list_toolkit_by_sakshi.py`       | Toolkit of list-based functions like sum, max, reverse, filtering.   | ✅ Done | `mini_projects/list_toolkit_by_sakshi.py`       |
-| `sakshi_smart_number_checker.py`  | A number checker for even/odd, divisibility & digit stats.           | ✅ Done | `mini_projects/sakshi_smart_number_checker.py`  |
-| `student_info_dict.py`            | Store and access student info using dictionary operations.           | ✅ Done | `mini_projects/student_info_dict.py`            |
-| `temp.txt`                        | A temporary file (used for testing or placeholder content).          | ✅ Done | `mini_projects/temp.txt`                        |
+| fun_warmup_chef_coding.py       | 5 small fun warm-up programs to kickstart my Python journey.         | ✅ Done | mini_projects/fun_warmup_chef_coding.py       |
+| `list_toolkit_by_sakshi.py`       | Toolkit of list-based functions like sum, max, reverse, filtering.   | ✅ Done | mini_projects/list_toolkit_by_sakshi.py       |
+| `sakshi_smart_number_checker.py`  | A number checker for even/odd, divisibility & digit stats.           | ✅ Done | mini_projects/sakshi_smart_number_checker.py  |
+| `student_info_dict.py`            | Store and access student info using dictionary operations.           | ✅ Done | mini_projects/student_info_dict.py            |
 
 ---
 
