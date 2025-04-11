@@ -37,9 +37,6 @@ Powered by curiosity, VS Code, and caffeine ☕, I’m building my own coding ki
 📁 resources/ → Cheat sheets, useful PDFs, and more 🧠  
 📁 readme_assets/ → Images & banners used in README 🌈
 📁 vibe_corner/ → My creative space – journey story, coding quotes, and personal reflections 💖
->🔖 Don’t miss my personal story in [`vibe_corner/my_python_journey.md`](vibe_corner/my_python_journey.md)  
-Because learning code is also about learning yourself ✨
-
 
 ---
 
@@ -115,6 +112,9 @@ Because learning code is also about learning yourself ✨
 
 Made with 💖 by **Sakshi** a.k.a. `codingwithsakshi-b`  
 Let’s grow, code & glow together ✨  
+-🔖 Don’t miss my personal story in [`vibe_corner/my_python_journey.md`](vibe_corner/my_python_journey.md)  
+Because learning code is also about learning yourself ✨
+
 
 > “Learning Python is not just about syntax… it's about building something magical 🪄.”  
 
