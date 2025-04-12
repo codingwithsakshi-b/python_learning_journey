@@ -27,41 +27,49 @@ lambda, None, nonlocal, not, or, pass, raise, return, True, try, while, with, yi
 ---
 
 ## 🔄 Type Conversion & Casting
-|Type   |  |	Syntax|
-|Integer|  |	int(x)|
-|Float	|  |float(x)|
-|String |  |str(x)  |
-|Boolean|	 |bool(x) |
+## 🔄 Type Conversion & Casting
+
+| Function     | Description                      | Example             |
+|--------------|----------------------------------|---------------------|
+| `int(x)`     | Converts `x` to integer          | `int("5") → 5`      |
+| `float(x)`   | Converts `x` to float            | `float("5.6") → 5.6`|
+| `str(x)`     | Converts `x` to string           | `str(5) → "5"`      |
+| `bool(x)`    | Converts `x` to boolean          | `bool(0) → False`   |
+
 -eg.a = "100"
 b = int(a)   # b = 100 (int)
 
 ---
 
 ## ➕ Operators
-# Arithmetic Operators
-Operator	Meaning	Example
-+	Addition	3 + 2 = 5
--	Subtraction	5 - 1 = 4
-*	Multiplication	4 * 2 = 8
-/	Division	10 / 2 = 5.0
-//	Floor Division	10 // 3 = 3
-%	Modulus	10 % 3 = 1
-**	Exponentiation	2 ** 3 = 8
+- Arithmetic Operators
+## ➕ Arithmetic Operators
 
-# Relational (Comparison) Operators
+| Operator | Name            | Example       | Result |
+|----------|-----------------|---------------|--------|
+| `+`      | Addition         | `3 + 2`       | `5`    |
+| `-`      | Subtraction      | `5 - 1`       | `4`    |
+| `*`      | Multiplication   | `4 * 2`       | `8`    |
+| `/`      | Division         | `10 / 2`      | `5.0`  |
+| `//`     | Floor Division   | `10 // 3`     | `3`    |
+| `%`      | Modulus          | `10 % 3`      | `1`    |
+| `**`     | Exponentiation   | `2 ** 3`      | `8`    |
+
+
+- Relational (Comparison) Operators
 ==, !=, >, <, >=, <=
 
-# Logical Operators
+- Logical Operators
 and, or, not
 
-# Assignment Operators
+- Assignment Operators
 =, +=, -=, *=, /=, //=, %=, **=
 
 ---
 
 ## 🔍 Type Checking
-x = 5
-print(type(x))  # <class 'int'>
+-x = 5
+-print(type(x))  # <class 'int'>
 
 ---
 
