@@ -97,6 +97,8 @@ Powered by curiosity, VS Code, and caffeine ☕, I’m building my own coding ki
 - ✔️ Chef Fun Coding Warm-Up (5 cute tasks) 🍳  
 - ✔️ Flexible Calculator with Default Parameters 🧮  
 - ✔️ Challenge Sheet + Solutions (Functions & Recursion) 🧠📝
+- ✔️ File Content Copier (with error handling & emojis) 📁✨
+- ✔️ [File Content Copier](mini_projects/copy_file_contents.py) (with error handling & emojis) 📁✨
 
 ---
 
