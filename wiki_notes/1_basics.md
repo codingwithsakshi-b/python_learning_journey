@@ -40,7 +40,7 @@ b = int(a)   # b = 100 (int)
 ---
 
 ## ➕ Operators
-- Arithmetic Operators
+## Arithmetic Operators
 | Operator | Name            | Example       | Result |
 |----------|-----------------|---------------|--------|
 | `+`      | Addition         | `3 + 2`       | `5`    |
