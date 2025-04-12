@@ -12,7 +12,7 @@ A detailed list of mini projects I've built during my Python learning journey (s
 | list_toolkit_by_sakshi.py          | Toolkit of list-based functions like sum, max, reverse, filtering.   | ✅ Done | mini_projects/list_toolkit_by_sakshi.py          |
 | sakshi_smart_number_checker.py     | A number checker for even/odd, divisibility & digit stats.           | ✅ Done | mini_projects/sakshi_smart_number_checker.py     |
 | student_info_dict.py               | Store and access student info using dictionary operations.           | ✅ Done | mini_projects/student_info_dict.py               |
-| file_handling_recipe_fun.py        | File handling mini project to manage, search, and tweak recipes.     | ✅ Done | mini_projects/file_handling_recipe_fun.py        |
+| warmup_recipe_book.py        | File handling mini project to manage, search, and tweak recipes.     | ✅ Done | mini_projects/file_handling_recipe_fun.py        |
 
 
 ---
