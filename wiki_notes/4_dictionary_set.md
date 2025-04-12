@@ -74,10 +74,10 @@ empty_set = set()  # NOT {}
 ```
 ---
 ### ⚙️ Properties of Sets
--Unordered (no index)
--No duplicate values
--Mutable (can add/remove elements)
--Elements must be immutable types
+- Unordered (no index)
+- No duplicate values
+- Mutable (can add/remove elements)
+- Elements must be immutable types
 
 ---
 ### ➕ Adding Elements
@@ -132,25 +132,25 @@ print(10 not in my_set)  # True
 
 ## 📚Summary 
 ### Python Dictionaries:
--📖 Store data as key-value pairs.
--🔑 Access values using keys (e.g., my_dict["name"]).
--✍️ Add/Update elements with dict[key] = value.
--❌ Remove elements using pop(key) or del.
--🔄 Methods: get(), keys(), values(), items(), and more.
--🧩 Nested Dictionaries: Store dictionaries inside other dictionaries.
--🔍 Efficient for fast lookups and data organization.
+- 📖 Store data as key-value pairs.
+- 🔑 Access values using keys (e.g., my_dict["name"]).
+- ✍️ Add/Update elements with dict[key] = value.
+- ❌ Remove elements using pop(key) or del.
+- 🔄 Methods: get(), keys(), values(), items(), and more.
+- 🧩 Nested Dictionaries: Store dictionaries inside other dictionaries.
+- 🔍 Efficient for fast lookups and data organization.
 
 ### Python Sets:
--🔢 Unordered collection of unique elements.
--🚫 No duplicates allowed.
--➕ Add elements with add() and update().
--❌ Remove elements with remove(), discard(), or pop().
--🔄 Perform set operations: Union, Intersection, Difference, Symmetric Difference.
--🔍 Methods: issubset(), issuperset(), isdisjoint(), and more.
--🧪 Check membership with in or not in.
+- 🔢 Unordered collection of unique elements.
+- 🚫 No duplicates allowed.
+- ➕ Add elements with add() and update().
+- ❌ Remove elements with remove(), discard(), or pop().
+- 🔄 Perform set operations: Union, Intersection, Difference, Symmetric Difference.
+- 🔍 Methods: issubset(), issuperset(), isdisjoint(), and more.
+- 🧪 Check membership with in or not in.
 
 ---
 
 ## Quote💫🚀
->"Programming is not about what you know; it's about what you can figure out." – Chris Pine
+> "Programming is not about what you know; it's about what you can figure out." – Chris Pine
 ---
