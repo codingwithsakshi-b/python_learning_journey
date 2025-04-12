@@ -70,5 +70,8 @@ n strings, you can escape characters using a backslash (\) to insert special cha
 - You can check for palindromes using slicing.
 - Escape characters allow inserting special characters in strings.
 
+---
 
+## 💬Thought of the Day
+>"The strings of life are woven with threads of change, but what is written in the heart remains unbroken."
 
