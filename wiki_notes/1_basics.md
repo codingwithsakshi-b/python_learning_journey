@@ -27,8 +27,6 @@ lambda, None, nonlocal, not, or, pass, raise, return, True, try, while, with, yi
 ---
 
 ## 🔄 Type Conversion & Casting
-## 🔄 Type Conversion & Casting
-
 | Function     | Description                      | Example             |
 |--------------|----------------------------------|---------------------|
 | `int(x)`     | Converts `x` to integer          | `int("5") → 5`      |
@@ -43,8 +41,6 @@ b = int(a)   # b = 100 (int)
 
 ## ➕ Operators
 - Arithmetic Operators
-## ➕ Arithmetic Operators
-
 | Operator | Name            | Example       | Result |
 |----------|-----------------|---------------|--------|
 | `+`      | Addition         | `3 + 2`       | `5`    |
