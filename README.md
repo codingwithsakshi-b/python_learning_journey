@@ -61,7 +61,7 @@ Powered by curiosity, VS Code, and caffeine ☕, I’m building my own coding ki
 | 5         | Loops (for, while, break, continue, range)| ✅ Done     |
 | 6         | Functions, Recursion                      | ✅ Done     |
 | 7         | File Handling, open/read/write/with/os    | ✅ Done     |
-| 8         | Coming soon...                            | 🕓 Upcoming |
+| 8         | OOPs (class,object, abstraction, encasulation) | ✅ Done     |
 
 ---
 
