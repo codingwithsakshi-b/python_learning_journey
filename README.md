@@ -30,14 +30,14 @@ Powered by curiosity, VS Code, and caffeine ☕, I’m building my own coding ki
 
 ## 🗂️ Folder Overview
 
-📁 notes/ → Lecture-wise handwritten code notes 📝  
-📁 practice_questions/ → Python questions solved by me ✨  
-📁 mini_projects/ → Small but cool real-life projects 💻  
-📁 assignments/ → Practice tasks & mini challenges 🎯  
-📁 resources/ → Cheat sheets, useful PDFs, and more 🧠  
-📁 readme_assets/ → Images & banners used in README 🌈
-📁 vibe_corner/ → My creative space – journey story, coding quotes, and personal reflections 💖
-📁 wiki_notes/ → Notes of Python in markdown form for revising concepts 😎
+- 📁 notes/ → Lecture-wise handwritten code notes 📝  
+- 📁 practice_questions/ → Python questions solved by me ✨  
+- 📁 mini_projects/ → Small but cool real-life projects 💻  
+- 📁 assignments/ → Practice tasks & mini challenges 🎯  
+- 📁 resources/ → Cheat sheets, useful PDFs, and more 🧠  
+- 📁 readme_assets/ → Images & banners used in README 🌈
+- 📁 vibe_corner/ → My creative space – journey story, coding quotes, and personal reflections 💖
+- 📁 wiki_notes/ → Notes of Python in markdown form for revising concepts 😎
 
 ---
 
