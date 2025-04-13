@@ -37,12 +37,14 @@ Powered by curiosity, VS Code, and caffeine ☕, I’m building my own coding ki
 📁 resources/ → Cheat sheets, useful PDFs, and more 🧠  
 📁 readme_assets/ → Images & banners used in README 🌈
 📁 vibe_corner/ → My creative space – journey story, coding quotes, and personal reflections 💖
+📁 wiki_notes/ → Notes of Python in markdown form for revising concepts 😎
 
 ---
 
 ## 📚 What You'll Find Here
 
-- 🧠 **Lecture-wise Notes** – Clear handwritten-style notes for each lecture  
+- 🧠 **Lecture-wise Notes** – Clear handwritten-style notes for each lecture
+- 📒 **Notes-in-md form** - notes in markdown file form in wiki_notes for revising concepts 
 - ✅ **Practice Questions** – Beginner-friendly problems and solutions  
 - 💻 **Mini Projects** – Simple apps to apply what I've learned  
 - 🗂️ **Resources Folder** – Handy links, references, and cheatsheets  
@@ -62,6 +64,7 @@ Powered by curiosity, VS Code, and caffeine ☕, I’m building my own coding ki
 | 6         | Functions, Recursion                      | ✅ Done     |
 | 7         | File Handling, open/read/write/with/os    | ✅ Done     |
 | 8         | OOPs (class,object, abstraction, encapsulation) | ✅ Done     |
+| 9         | coming soon.....                          | ⌛Upcoming |
 
 ---
 
