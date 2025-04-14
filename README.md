@@ -106,7 +106,7 @@ Powered by curiosity, VS Code, and caffeine ☕, I’m building my own coding ki
 - ✔️ File Content Copier (with error handling & emojis) 📁✨
 - ✔️ [File Content Copier](mini_projects/copy_file_contents.py) (with error handling & emojis) 📁✨
 - ✔️ Private Bank Account with CLI based using OOPs please check..
-[✅](mini_projects/private_bank_account.py)
+- [private_bank_account](mini_projects/private_bank_account.py)
 
 ---
 
