@@ -19,7 +19,7 @@ def add_university(user_dict):
     #add use university to the user dictionary.
     your_univ = input("🎓🏫 Enter Your University Name: ")
     user_dict.update("University": your_univ)
-    print(f\n➕ Adding University = {your_univ}")
+    print(f"\n➕ Adding University = {your_univ}")
     return user_dict
 
 def remove_key_info(user_dict):
