@@ -29,7 +29,7 @@ def get_user_input():
 def show_original_list(user_list):
     #Displays the user's original list
     print("\n🔁 Elements Recieved ✅")
-    print(f"↪️{user_list}")
+    print(f"↪️ {user_list}")
 
 def convert_to_uppercase(user_list):
     print("\n⬆️ Uppercase List is..")
@@ -47,6 +47,7 @@ def remove_item(user_list):
     print("\n🚮 Removing an item from list...")
     remove = input("⁉️ Enter an item you want to remove from list: ")
     if remove in user_list:
+        print(f"✅ Removing {remove} from list...")
         user_list.remove(remove)
         print(f"Updated list is: {user_list}")
     else:
