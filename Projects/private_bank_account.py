@@ -47,7 +47,7 @@ class BankAccount:
         print(Fore.GREEN + f"💰 Your Total Balance is: {self.__balance} Rs/ only!\n" + Style.RESET_ALL)
 
     def deposit(self, amount):
-         if ammount <= 0:
+         if amount <= 0:
              print(Fore.RED + "⚠️ Deposit amount must be greater than zero.\n" + Style.RESET_ALL)
              return
 
@@ -60,17 +60,17 @@ class BankAccount:
              self.__log_to_file(f"Deposited {amount} Rs/ only.")
     
     def withdraw(self, amount):
-         if ammount <= 0:
+         if amount <= 0:
              print(Fore.RED + "⚠️ Deposit amount must be greater than zero.\n" + Style.RESET_ALL)
              return
 
-       if self.__verify_pin():
+         if self.__verify_pin():
 
-        if amount > self.__balance:
+          if amount > self.__balance:
             print(Fore.RED + "⚠️ Insufficient Balance! Transaction Failed.\n" + Style.RESET_ALL)
             self.__transactions.append(f"{datetime.now().strftime('%d-%m-%Y %H:%M:%S')} ➜ withdrawn {amount} Rs. failed due to insufficient balance ")
             self.__log_to_file(f"Transaction Failed!⚠️ Due to insufficient Balance.")       
-        else:
+          else:
             self.__balance -= amount
             print(Fore.GREEN + f"💸 {amount} Rs/ withdrawn from your account!\n" + Style.RESET_AL)
             self.__transactions.append(f"{datetime.now().strftime('%d-%m-%Y %H:%M:%S')} ➜ withdrawn {amount} Rs.")
