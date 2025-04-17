@@ -1,54 +1,52 @@
 # 🎓 Welcome to Sakshi’s Student Info System 📘
 # 💡 Created with love by Sakshi | Polished by Aryan ✨
-
+from colorama import Fore, Style
 user_dict = {}
-
-print("🎓 Welcome to Sakshi’s Student Info System 📘")
 
 # 🔹 Input section
 def collect_user_info():
-    name = input("\n📝 Enter Your Name: ").capitalize()
-    age = input("📝 Enter Your Age: ")
+    name = input(Fore.LIGHTCYAN_EX + "\n📝 Enter Your Name: ").capitalize()
+    age = input(Fore.LIGHTCYAN_EX + "📝 Enter Your Age: " + Style.RESET_ALL)
     while not age.isdigit():
-        print("❌ Invalid Age Input. Please Enter a Valid Age.")
-        age = input("📝 Enter Your Age: ")
-    course = input("📝 Enter Your Course: ").upper()
-    return{"Name": name, "Age": int(age), "Course": course}
+        print(Fore.RED + "❌ Invalid Age Input. Please Enter a Valid Age." + Style.RESET_ALL)
+        age = input(Fore.LIGHTCYAN_EX + "📝 Enter Your Age: ")
+    course = input(Fore.LIGHTCYAN_EX + "📝 Enter Your Course: " + Style.RESET_ALL).upper()
+    return {"Name": name, "Age": int(age), "Course": course}
 
 def add_university(user_dict):
     #add use university to the user dictionary.
-    your_univ = input("🎓🏫 Enter Your University Name: ")
-    user_dict.update("University": your_univ)
-    print(f"\n➕ Adding University = {your_univ}")
+    your_univ = input(Fore.CYAN + "🎓🏫 Enter Your University Name: " + Style.RESET_ALL).upper()
+    user_dict.update({"University": your_univ})
+    print(Fore.GREEN + f"\n➕ Adding University = {your_univ}" + Style.RESET_ALL)
     return user_dict
 
 def remove_key_info(user_dict):
-    key_remove = input("Enter a KEY wants to remove from your dictionary: ")
+    key_remove = input(Fore.CYAN + "Enter a KEY wants to remove from your dictionary: " + Style.RESET_ALL).capitalize()
     if key_remove in user_dict:
         user_dict.pop(key_remove)
-        print(f"❌ removing {key_remove} key...")
+        print(Fore.RED + f"❌ removing {key_remove} key..." + Style.RESET_ALL)
     else:
-        print(f"{key_remove} key doesn't exist in dictionary")
+        print(Fore.YELLOW + f"{key_remove} key doesn't exist in dictionary" + Style.RESET_ALL)
     return user_dict
 
 def display_final_record(user_dict):
-    print("\n🔖 Final Student Record.")
+    print(Fore.LIGHTRED_EX + "\n🔖 Final Student Record." + Style.RESET_ALL)
     print(user_dict)
     print("\n📂 Keys:", user_dict.keys())
     print("📜 Values:", user_dict.values())
 
 # Main Program
 if __name__ == "__main__":
-    print("🎓 Welcome to Sakshi’s Student Info System 📘")
+    print(Fore.LIGHTMAGENTA_EX + "🎓 Welcome to Sakshi’s Student Info System 📘" + Style.RESET_ALL)
     user_dict = collect_user_info()
-    print("\n👩‍🎓 Original Data:")
+    print(Fore.LIGHTRED_EX + "\n👩‍🎓 Original Data:" + Style.RESET_ALL)
     print(user_dict)
 
-    user_dict = add_university_info(user_dict)
-    user_dict = remove_course_info(user_dict)
+    user_dict = add_university(user_dict)
+    user_dict = remove_key_info(user_dict)
     display_final_record(user_dict)
 
 
 # 🎉 Closing
-print("\n✨ Thank you for using Sakshi’s Smart Dictionary Tool!")
-print("💻 Created by Sakshi.")
+print(Fore.MAGENTA + "\n✨ Thank you for using Sakshi’s Smart Dictionary Tool!" + Style.RESET_ALL)
+print(Fore.MAGENTA + "💻 Created by Sakshi." + Style.RESET_ALL)
