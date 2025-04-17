@@ -1,3 +1,5 @@
+from getpass import getpass
+from colorama import Fore, Style
 from datetime import datetime
 import random
 
@@ -15,11 +17,11 @@ class BankAccount:
         print(f"Initial Balance: {self.__balance} Rs/\n")
     
     def __verify_pin(self):
-      entered_pin = input("🔒 Enter your PIN: ")
+      entered_pin = getpass(Fore.YELLOW + "🔒 Enter your PIN:" + Style.RESET_ALL)
       if entered_pin == self.__pin:
         return True
       else:
-        print("❌ Incorrect PIN! Access denied.\n")
+        print(Fore.RED + "❌ Incorrect PIN! Access denied.\n" + Style.RESET_ALL)
         return False
 
 
