@@ -5,6 +5,8 @@
 
 print("👋 Welcome to Sakshi's File Copy Content Function 🎉🎉")
 
+source_file = input("\nEnter a Source file you Want to copy(.txt):")
+
 def copy_file_contents(source_file, destination_file):
     """
     📌 Copies content from 'source_file' to 'destination_file'
