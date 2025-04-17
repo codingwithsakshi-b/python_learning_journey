@@ -29,7 +29,7 @@ class BankAccount:
        if self.__verify_pin(): 
           while True:
 
-            new_pin = input("Enter New PIN 🔒:")
+            new_pin = input(Fore.LIGHTBLUE_EX + "Enter New PIN 🔒:" + Style.RESET_ALL)
             if new_pin == self.__pin:
               print(Fore.RED + "⚠️ New PIN cannot be the same as the old one. Please choose a different PIN." + Style.RESET_ALL)
               
@@ -72,7 +72,7 @@ class BankAccount:
             self.__log_to_file(f"Transaction Failed!⚠️ Due to insufficient Balance.")       
           else:
             self.__balance -= amount
-            print(Fore.GREEN + f"💸 {amount} Rs/ withdrawn from your account!\n" + Style.RESET_AL)
+            print(Fore.GREEN + f"💸 {amount} Rs/ withdrawn from your account!\n" + Style.RESET_ALL)
             self.__transactions.append(f"{datetime.now().strftime('%d-%m-%Y %H:%M:%S')} ➜ withdrawn {amount} Rs.")
             self.__log_to_file(f"withdrawl {amount} Rs/ only.")
 
@@ -113,37 +113,38 @@ class BankAccount:
 #-----------------------CLI Interface------------------------
 
 def main():
-   print("🏦 Welcome to Private Bank CLI 💻\n")
-   name = input("Enter Your Name: ")
-   email = input("Enter Your Email: ")
-   balance = float(input("Enter initial deposit amount (Rs):"))
-   pin = input("Set a 4-digit PIN: ")
+   print(Fore.MAGENTA + "🏦 Welcome to Private Bank CLI 💻\n" + Style.RESET_ALL)
+   name = input(f"{Fore.CYAN}Enter Your Name: {Style.RESET_ALL}")
+   email = input(f"{Fore.CYAN}Enter Your Email: {Style.RESET_ALL}")
+   balance = float(input(f"{Fore.CYAN}Enter initial deposit amount (Rs): {Style.RESET_ALL}"))
+   pin = input(f"{Fore.CYAN}Set a 4-digit PIN: {Style.RESET_ALL}")
+
 
    user = BankAccount(name, email, balance, pin)
 
    while True:
-       print("\n📋 Choose an option:")
-       print("1. 🧾 Check Balance")
-       print("2. 💵 Deposit Money")
-       print("3. 💸 Withdraw Money")
-       print("4. 🔐 Change PIN")
-       print("5. 🧾 Show Transactions")
-       print("6. 🧮 Calculate Interest")
-       print("7. 📜 Summary of Account:")
-       print("8. ❌ EXIT")
+       print(f"{Fore.YELLOW}📋 Choose an option:\n")
+       print(f"{Fore.CYAN}1. 🧾 Check Balance")
+       print(f"{Fore.GREEN}2. 💵 Deposit Money")
+       print(f"{Fore.LIGHTRED_EX}3. 🏧 Withdraw Money")
+       print(f"{Fore.LIGHTMAGENTA_EX}4. 🔐 Change PIN")
+       print(f"{Fore.LIGHTBLUE_EX}5. 📄 Show Transactions")
+       print(f"{Fore.LIGHTCYAN_EX}6. 🧮 Calculate Interest")
+       print(f"{Fore.LIGHTWHITE_EX}7. 📊 Summary of Account:")
+       print(f"{Fore.RED}8. ❌ EXIT{Style.RESET_ALL}")
        
-       choice = input("\n Enter Your Choice (1-6):")
+       choice = input(Fore.LIGHTMAGENTA_EX + "\n Enter Your Choice (1-8):" + Style.RESET_ALL)
 
        if choice == "1":
           user.get_balance()
 
        elif choice == "2":
-             amount = float(input("Enter amount to deposit: "))
+             amount = float(input(Fore.LIGHTGREEN_EX +"Enter amount to deposit: " + Style.RESET_ALL))
              user.deposit(amount)             
           
        elif choice == "3":
              try:
-              amount = float(input("Enter amount to withdraw: "))             
+              amount = float(input(Fore.LIGHTRED_EX +"Enter amount to withdraw: " + Style.RESET_ALL))             
               user.withdraw(amount)
              except ValueError:
                 print("❌ invalid amount.")
@@ -162,10 +163,10 @@ def main():
            user.account_summary()
 
        elif choice == "8":
-          print("👋 Thank you for using Private Bank CLI! Stay Safe & Secure. 🛡️")
+          print(Fore.LIGHTGREEN_EX + "👋 Thank you for using Private Bank CLI! Stay Safe & Secure. 🛡️" + Style.RESET_ALL)
           break
        else:
-          print("❌ Invalid choice. Please select a valid option.")
+          print(Fore.RED + "❌ Invalid choice. Please select a valid option." + Style.RESET_ALL)
 
 if __name__ == "__main__":
    main()
