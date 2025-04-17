@@ -4,16 +4,17 @@
 # 📁 Destination file: copy.txt (or any file you choose)
 import os
 import shutil
-from tqdm import tqdm
-from termcolor import colored
+from tqdm import tqdm #pip install tqdm
+from termcolor import colored #pip install termcolor
+from colorama import Fore, Style
 
-print("👋 Welcome to Sakshi's File Copy Content Function 🎉🎉")
+print(Fore.MAGENTA + "👋 Welcome to Sakshi's File Copy Content Function 🎉🎉" + Style.RESET_ALL)
 
-source_file = input("\nEnter a Source file you Want to copy(.txt):")
-destination_file = input("\nEnter a Destination file you want to create(.txt):")
+source_file = input(Fore.LIGHTYELLOW_EX + "\nEnter a Source file you Want to copy(.txt):")
+destination_file = input(Fore.LIGHTYELLOW_EX + "\nEnter a Destination file you want to create(.txt):" + Style.RESET_ALL)
 
 if not source_file.endswith('.txt') or not destination_file.endswith('.txt'):
-    print("❌ Only .txt Files are supported.")
+    print(Fore.RED + "❌ Only .txt Files are supported." + Style.RESET_ALL)
     exit()
 
 def copy_file_contents(source_file, destination_file):
@@ -26,7 +27,7 @@ def copy_file_contents(source_file, destination_file):
     if os.path.exists(destination_file):
         backup_file = destination_file + ".bak"
         shutil.copy(destination_file, backup_file)
-        print(f"⚠️ Backup created: {backup_file}")
+        print(Fore.LIGHTGREEN_EX + f"⚠️ Backup created: {backup_file}" + Style.RESET_ALL)
 
     try:
         with open(source_file, "rb") as source, open(destination_file, "wb") as dest:
@@ -40,12 +41,12 @@ def copy_file_contents(source_file, destination_file):
     except Exception as e:
         print(colored(f"⚠️ Unexpected Error: {e}","red"))
     
-    print("\n🙏 Thank you for using this Tool 😌💫")
+    print(Fore.LIGHTBLUE_EX + "\n🙏 Thank you for using this Tool 😌💫" + Style.RESET_ALL)
 
 # 🚀 Function call with sample file names
-copy_file_contents("data.txt", "copy.txt")
+copy_file_contents(source_file, destination_file)
 
-if input("\nDo You want to undo the last operation? (yes/no): ").lower() == "yes":
+if input(Fore.LIGHTYELLOW_EX + "\nDo You want to undo the last operation? (yes/no): " + Style.RESET_ALL).lower() == "yes":
     backup_file = destination_file + ".bak"
     if os.path.exists(backup_file):
         shutil.copy(backup_file, destination_file)
