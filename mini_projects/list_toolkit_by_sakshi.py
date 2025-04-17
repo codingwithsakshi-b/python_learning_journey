@@ -31,7 +31,7 @@ def show_original_list(user_list):
     print("\n🔁 Elements Recieved ✅")
     print(f"↪️{user_list}")
 
-def covert_to_uppercase(user_list):
+def convert_to_uppercase(user_list):
     print("\n⬆️ Uppercase List is..")
     upper_list = [items.upper() for items in user_list]
     print(f"⬆️ Uppercase list: {upper_list}")
