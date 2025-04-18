@@ -4,7 +4,7 @@
 from datetime import datetime
 
 def safe_input(prompt):
-    while true:
+    while True:
         try:
             return int(input(prompt))
         except ValueError:
@@ -34,10 +34,10 @@ def main():
         print(f"\nChecked on: {datetime.now().strftime('%d-%b-%Y  %I:%M:%p')}")
         print(f"\n👉 You Entered: {num}")
 
-        print("\nEven Odd check:")
+        print("\n✨ Even Odd check:")
         check_even_odd(num)
 
-        print("\nDivisibility Test from 3️⃣ and 5️⃣.")
+        print("\n✅ Divisibility Test from 3️⃣ and 5️⃣.")
         print(divisibility_test(num))
 
         again = input("\n🔁 Do You Want to Check Another Number? (yes/no): ").strip().lower()
