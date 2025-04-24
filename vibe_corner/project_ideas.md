@@ -22,12 +22,15 @@ A detailed list of mini projects I've built during my Python learning journey (s
 | Project Name                         | Description                                                                                             | Status      | Location (Planned)                           |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|-------------|----------------------------------------------|
 | 🧮 `AdvancedStudentReportOOP`       | Extend previous `Student` class to use inheritance, private attributes, auto-updated % etc.            | 🚧 Upcoming | `projects/advanced_student_report_oop.py`    |
-| 💳 `PrivateBankAccount`            | Use private variables for sensitive data, access via methods                                            | 🚧 Upcoming | `projects/private_bank_account.py`           |
+| 💳 `PrivateBankAccount`            | Use private variables for sensitive data, access via methods                                            | ✅ Done | `projects/private_bank_account.py`           |
 | 👨‍👧‍👦 `ParentChildDemo`             | Show how properties are inherited in child class with `super()` usage                                   | 🚧 Upcoming | `practice_questions/inheritance_demo.py`     |
 | ⚖️ `OperatorOverloadComplex`        | Create a `Complex` class with overloaded `+` operator to add complex numbers                            | 🚧 Upcoming | `projects/operator_overload_complex.py`      |
 | 🔵 `CircleClassProject`            | Make a `Circle` class with radius, area, perimeter & use constructor + methods                          | 🚧 Upcoming | `projects/circle_class_project.py`           |
 | 🤹 `TypeBasedLogicDemo`            | A class method that does different things based on input type (e.g. string vs int)                      | 🚧 Upcoming | `practice_questions/type_logic_demo.py`      |
-| 🐶 `Dogcarewithallfeatures`          | A complete Dog class with bark, birthday, feed, walk and status report methods                          | ✅ Done     | `mini_project/dog_class_with_birthday.py`         |
+| 🐶 `Dogcarewithallfeatures`          | A complete Dog class with bark, birthday, feed, walk and status report methods                          | ✅ Done     | 
+`mini_project/dog_class_with_birthday.py`         |
+|📟 `secretcodegenerator`            | A whole series of different logic creating a SECRET CODE GENERATOR                                     | 🔜 Work on progress |
+`Projects/Secret_CODE`                       |
 
 ---
 
