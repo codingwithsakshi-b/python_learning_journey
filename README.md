@@ -1,4 +1,4 @@
-# python_learning_journey
+#🚀 python_learning_journey
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/codingwithsakshi-b/python_learning_journey)
 ![GitHub stars](https://img.shields.io/github/stars/codingwithsakshi-b/python_learning_journey?style=social)
@@ -9,6 +9,23 @@
 ![Social Preview](resources/social_preview.png)
 
 ![Sakshi's Python Journey](https://github.com/codingwithsakshi-b/python_learning_journey/blob/main/Add%20a%20heading.png?raw=true)
+
+---
+
+# 📖 Table of Contents
+- Welcome
+- About This Repository
+- Folder Overview
+- What You'll Find Here
+- My Progress
+- Tools & Tech
+- Why I Made This Repo
+- Working On (Current Projects)
+- Featured Work
+- Let's Connect
+- Made with Love
+
+---
 
 # 💖 Welcome to My Python Coding World
 
@@ -76,10 +93,14 @@ Powered by curiosity, VS Code, and caffeine ☕, I’m building my own coding ki
 
 ## 🚀 Tools & Tech
 
-- 💻 Language: Python (obviously 😎)  
+- 💻 Language: 🐍 Python 3.x – My primary language for coding everything.  
 - 🎬 Tutorial: Shraddha Khapra’s Beginner-Friendly Playlist  
-- 🧠 IDE: VS Code  
+- 🧠 IDE: ✨ VS Code & Jupyter – The code editors and notebook environment I use daily for writing and testing code.
+- 📚 Libraries: Pandas, NumPy, Matplotlib, and Seaborn for data tasks; Tkinter for simple GUIs; Flask & Django for web development experiments.
+- 🔧 Git & GitHub: Version control and collaboration — essential for managing my code and sharing it here.
+- 🛠 Databases: SQLite and PostgreSQL (getting my hands dirty with databases for the first time!).
 - 🌍 Hosted on: GitHub  
+> I’m always exploring new tools, but this list covers the essentials I rely on at the moment.
 
 ---
 
